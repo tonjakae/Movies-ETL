@@ -108,3 +108,32 @@ The movies_with_ratings_df and the movies_df DataFrames are displayed in the ETL
 
 <img width="737" alt="image" src="https://user-images.githubusercontent.com/87340105/156970086-86c9200b-7dc4-42ec-ad9f-4060def20565.png">
 
+## Deliverable 4 Requirements
+
+* The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database, as determined by the movies_query.png.
+* The data from the MovieLens rating CSV file is added to the ratings table in the SQL database, as determined by the ratings_query.png.
+* The elapsed time to add the data to the database is displayed in the ETL_create_database.ipynb file.
+
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/87340105/156970290-839b7a5f-7171-493a-bf2a-ace8ca5ba76f.png">
+
+<img width="449" alt="image" src="https://user-images.githubusercontent.com/87340105/156970331-8d3114dd-8953-4268-8300-60308b9daec2.png">
+
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/87340105/156970379-b5abdc94-b3a1-4362-85a5-20a18eda9cae.png">
+
+<img width="484" alt="image" src="https://user-images.githubusercontent.com/87340105/156970419-da468b50-7dd8-4666-b6c4-0c0c691335a8.png">
+
+<img width="455" alt="image" src="https://user-images.githubusercontent.com/87340105/156970452-90e8582e-ec96-4bf9-9598-8590d031aafb.png">
+
+<img width="722" alt="image" src="https://user-images.githubusercontent.com/87340105/156970469-a69135e2-c304-40ef-8a14-80ae23437d10.png">
+
+<img width="623" alt="image" src="https://user-images.githubusercontent.com/87340105/156970499-6825665d-b401-4fbc-8c35-360eb9512b3a.png">
+
+<img width="328" alt="image" src="https://user-images.githubusercontent.com/87340105/156970518-41ee66e4-c0c4-4ac1-a4af-5d690f774b79.png">
+
+<img width="727" alt="image" src="https://user-images.githubusercontent.com/87340105/156970546-707aeb52-5059-4a26-9867-6c8f9849500b.png">
+
+<img width="499" alt="image" src="https://user-images.githubusercontent.com/87340105/156970570-d5f70b3a-8a62-407d-a22c-e1a7d176e03a.png">
+
+<img width="462" alt="image" src="https://user-images.githubusercontent.com/87340105/156970604-e7b9da21-f983-4089-a436-c27dba3bec28.png">
+
+<img width="740" alt="image" src="https://user-images.githubusercontent.com/87340105/156970619-a6ab91c4-399f-4bc6-9e37-1f501bed6ab7.png">
