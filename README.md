@@ -72,4 +72,39 @@ The purpose of our analysis was to determine whether or not there was positivity
 
 <img width="742" alt="image" src="https://user-images.githubusercontent.com/87340105/156969352-6b51bc24-1bbf-431e-bf66-c0e8e3c38f3d.png">
 
+## Deliverable 3 Requirements
+
+The extraction and transformation of the Kaggle metadata using the ETL function does the following:
+* The Kaggle metadata is cleaned.
+* The Wikipedia and Kaggle DataFrames are merged.
+* The following is performed on the merged Wikipedia and Kaggle DataFrames to create the movies_df:
+ * Unnecessary columns are dropped.
+ * A function is used to fill in the missing Kaggle data.
+ * The movies_df DataFrame is filtered to keep specific columns.
+ * The movies_df DataFrame columns are renamed.
+The extraction and transformation of the MovieLens ratings data using the ETL function does the following:
+* The ratings counts are cleaned.
+* The movies_df DataFrame is merged with the cleaned ratings DataFrame to create the movies_with_ratings_df DataFrame.
+* The empty values in the movies_with_ratings_df DataFrame are filled with “0”.
+The movies_with_ratings_df and the movies_df DataFrames are displayed in the ETL_clean_kaggle_data.ipynb file.
+
+<img width="481" alt="image" src="https://user-images.githubusercontent.com/87340105/156969786-99cee62b-30ff-47e8-a9ed-712e302cc8a4.png">
+
+<img width="685" alt="image" src="https://user-images.githubusercontent.com/87340105/156969832-e4e99703-b0ce-48e1-8b07-03adbe35f0ef.png">
+
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/87340105/156969860-a7da4471-1c89-4119-b56a-6a66994c7797.png">
+
+<img width="461" alt="image" src="https://user-images.githubusercontent.com/87340105/156969891-3ad4e8c3-0f78-4ad4-b312-a2ea2ac6903d.png">
+
+<img width="730" alt="image" src="https://user-images.githubusercontent.com/87340105/156969933-3eb8956d-3fa3-4fd5-86c7-4cce05a938fc.png">
+
+<img width="641" alt="image" src="https://user-images.githubusercontent.com/87340105/156969962-bf6264ac-ef21-44f7-bc0a-e9991dc00a59.png">
+
+<img width="725" alt="image" src="https://user-images.githubusercontent.com/87340105/156969989-10e9a6f5-69b5-465b-8340-cf23fa9b4f36.png">
+
+<img width="752" alt="image" src="https://user-images.githubusercontent.com/87340105/156970046-54c38e9b-86ec-403a-b5a0-27a7065e18a2.png">
+
+<img width="743" alt="image" src="https://user-images.githubusercontent.com/87340105/156970071-2c6f4978-9098-48e4-88c9-b2b7dc8b168f.png">
+
+<img width="737" alt="image" src="https://user-images.githubusercontent.com/87340105/156970086-86c9200b-7dc4-42ec-ad9f-4060def20565.png">
 
